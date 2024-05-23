@@ -1,0 +1,45 @@
+#Contect{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Main-contact{
+    background-color: rgb(50,50,50);
+    width: 30%;
+    height:80px ;
+    border-radius: 1rem;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.contectme {
+    display: flex;
+    align-items: center;
+  }
+  .Logo {
+     font-size: 30px;
+     margin-left: 10px;
+  }
+  .text-container {
+    margin-left: 40px; 
+    cursor: pointer;
+  }
+  
+  h1, h5 {
+    margin: 0; 
+  }
+.Img{
+   height: 3rem;
+   width: 3rem;
+   margin: 1rem 1rem;
+}
+
+@media (max-width:600px) {
+
+  .Main-contact{
+    width: 280px;
+  }
+
+}
